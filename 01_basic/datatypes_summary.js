@@ -33,9 +33,17 @@ myfunction();
 
 const bigNumber = 112112121212113213123333122n;
 
-console.log(typeof bigNumber);
-console.log(typeof myfunction);
-console.log(typeof myDetail);
-console.log(typeof heros);
-console.log(typeof outsideTemp);
+// console.log(typeof bigNumber);
+// console.log(typeof myfunction);
+// console.log(typeof myDetail);
+// console.log(typeof heros);
+// console.log(typeof outsideTemp);
 
+
+//Stack Memory (Primitive) and Heap memory (Reference or Non Primitive)
+
+let myName = "ANish oli"
+let anotherName = myName;
+anotherName = "Ravi"
+console.log(myName);
+console.log(anotherName);
