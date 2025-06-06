@@ -61,3 +61,5 @@ likewise for splice once you use splice then the real array will be manipulated 
 only elemet which are not mention in the splice and next thing that splice will mention start and end element also
 
 */
+
+
